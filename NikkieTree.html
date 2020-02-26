@@ -5,12 +5,12 @@
 <body style='margin : 0px; overflow: hidden;'>		
 	<a-scene embedded arjs='debugUIEnabled: false; sourceType: webcam;'>
         	<a-assets>
-             		<a-asset-item id="Tree-obj" src="Assets/Super_Mario_64-Mario.obj"></a-asset-item>
-			<a-asset-item id="Tree-mtl" src="Assets/Super_Mario_64-Mario.mtl"></a-asset-item>
+             		<a-asset-item id="Mario-obj" src="Assets/Super_Mario_64-Mario.obj"></a-asset-item>
+			<a-asset-item id="Mario-mtl" src="Assets/Super_Mario_64-Mario.mtl"></a-asset-item>
         	</a-assets>
         
         	<a-marker type='pattern' url='Markers/Q_Marker.patt'>
-            		<a-entity obj-model="obj: #Tree-obj; mtl: #Tree-mtl" scale='0.001 0.001 0.001' position='0 0 0'></a-entity>
+            		<a-entity obj-model="obj: #Mario-obj; mtl: #Mario-mtl" scale='0.001 0.001 0.001' position='0 0 0'></a-entity>
         	</a-marker>
 		
 		<a-entity camera></a-entity>
